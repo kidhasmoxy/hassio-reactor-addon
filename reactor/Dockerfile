@@ -5,10 +5,10 @@ ARG BUILD_VERSION
 ARG BUILD_ARCH
 ARG BASHIO_VERSION=0.14.3
 
-LABEL \
-  io.hass.version="$BUILD_VERSION" \
-  io.hass.type="addon" \
-  io.hass.arch="$BUILD_ARCH"
+#LABEL \
+#  io.hass.version="$BUILD_VERSION" \
+#  io.hass.type="addon" \
+#  io.hass.arch="$BUILD_ARCH"
 
 RUN \
   apk add --no-cache bash supervisor nginx yq jq; \

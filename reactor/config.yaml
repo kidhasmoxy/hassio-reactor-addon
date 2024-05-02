@@ -7,9 +7,8 @@ arch:
   - amd64
   - armv7
   - aarch64
-image: mrw298/toggledbits-reactor-{arch}
 init: false
-url: https://github.com/mrw298/hassio-reactor-addon/tree/master/reactor
+url: https://github.com/kidhasmoxy/hassio-reactor-addon/tree/master/reactor
 startup: application
 boot: auto
 hassio_api: true
